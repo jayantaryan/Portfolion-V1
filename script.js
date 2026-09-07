@@ -1,6 +1,4 @@
-// =========================
-// MOBILE MENU
-// =========================
+
 
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
@@ -20,7 +18,7 @@ menuBtn.addEventListener("click", () => {
     }
 });
 
-// Close menu when link is clicked
+
 navItems.forEach(link => {
     link.addEventListener("click", () => {
         navLinks.classList.remove("active");
@@ -31,9 +29,7 @@ navItems.forEach(link => {
     });
 });
 
-// =========================
-// SMOOTH SCROLLING
-// =========================
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         const targetId = this.getAttribute("href");
@@ -52,9 +48,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-// =========================
-// ACTIVE NAV LINK
-// =========================
+
 
 const sections = document.querySelectorAll("section");
 
@@ -81,9 +75,7 @@ window.addEventListener("scroll", () => {
     });
 });
 
-// =========================
-// SCROLL REVEAL ANIMATION
-// =========================
+
 
 const revealElements = document.querySelectorAll(
     ".glass-card, .section-title, .hero-content, .hero-image"
@@ -107,9 +99,7 @@ revealElements.forEach(element => {
     revealObserver.observe(element);
 });
 
-// =========================
-// BACK TO TOP BUTTON
-// =========================
+
 
 const backToTopBtn = document.createElement("button");
 
@@ -133,9 +123,7 @@ backToTopBtn.addEventListener("click", () => {
     });
 });
 
-// =========================
-// INJECT REQUIRED STYLES
-// =========================
+
 
 const dynamicStyles = document.createElement("style");
 
@@ -188,14 +176,14 @@ dynamicStyles.textContent = `
 
 document.head.appendChild(dynamicStyles);
 
-// Dynamic footer year
+
 const yearElement = document.querySelector("footer p");
 
 if (yearElement) {
     yearElement.innerHTML = `© ${new Date().getFullYear()} Jayant. All Rights Reserved.`;
 }
 
-// Navbar background on scroll
+
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {

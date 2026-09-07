@@ -1,6 +1,4 @@
-/* =========================
-   RESET
-========================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +33,7 @@ body {
     overflow-x: hidden;
 }
 
-/* =========================
-   GLOBAL
-========================= */
+
 
 section {
     padding: 100px 8%;
@@ -70,9 +66,7 @@ ul {
     list-style: none;
 }
 
-/* =========================
-   GLASS CARD
-========================= */
+
 
 .glass-card {
     background: var(--card-bg);
@@ -83,9 +77,7 @@ ul {
     box-shadow: var(--shadow);
 }
 
-/* =========================
-   NAVBAR
-========================= */
+
 
 header {
     position: sticky;
@@ -132,9 +124,7 @@ header {
     cursor: pointer;
 }
 
-/* =========================
-   HERO
-========================= */
+
 
 .hero {
     min-height: 100vh;
@@ -227,9 +217,7 @@ header {
     color: var(--accent);
 }
 
-/* =========================
-   ABOUT
-========================= */
+
 
 .about-container {
     max-width: 900px;
@@ -250,9 +238,7 @@ header {
     margin-bottom: 15px;
 }
 
-/* =========================
-   SKILLS
-========================= */
+
 
 .skills-container {
     display: grid;
@@ -281,9 +267,7 @@ header {
     font-size: 1rem;
 }
 
-/* =========================
-   PROJECTS
-========================= */
+
 
 .projects-container {
     display: grid;
@@ -324,9 +308,7 @@ header {
     text-decoration: underline;
 }
 
-/* =========================
-   CONTACT
-========================= */
+
 
 .contact-container {
     max-width: 800px;
@@ -368,9 +350,6 @@ header {
     margin-right: 8px;
 }
 
-/* =========================
-   FOOTER
-========================= */
 
 footer {
     text-align: center;
@@ -379,9 +358,7 @@ footer {
     color: var(--text-secondary);
 }
 
-/* =========================
-   ANIMATIONS
-========================= */
+
 
 @keyframes float {
     0% {
@@ -395,7 +372,7 @@ footer {
     }
 }
 
-/* Fade-in animation */
+
 
 .section,
 .hero-content,
@@ -418,9 +395,7 @@ footer {
     }
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+
 
 @media (max-width: 992px) {
 
